@@ -5,6 +5,6 @@ University project designing a website where students use to answer assignments,
 and chat with other students. Focussed on design for appearance and functionality. Used HTML5, CSS,
 Bootstrap and JQuery
 
-__Website context, walkthrough and design decisions in "Design Documentation.pdf"__
+*Website context, walkthrough and design decisions in "Design Documentation.pdf"*
 
 Open website with "index.html"
