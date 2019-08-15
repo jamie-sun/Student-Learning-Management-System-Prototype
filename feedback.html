@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Feedback</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+<br>
+
+<div class="container">
+  <h1>Group Feedback</h1>
+  <br>
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#assignment1">Assignment 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#assignment2">Assignment 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#assignment3">Assignment 3</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="assignment1" class="container tab-pane active"><br>
+     <div class="row">
+      <div class="col-lg-10">
+      <h3>Running! Why do we do it?</h3>
+		<p><i>Select a students solution and press "reply" to leave feedback.</i></p>
+    </div>
+    
+    <div class="col-lg-2">
+      <img src="vendor/images/running.png" style="height: 100px">
+		</div>
+   	
+    	</div>
+     	<div class="card my-3" >
+            <h5 class="card-header">Amy</h5>
+            <div class="card-body">
+            <p class="card-text">Students solution to the problem... <a href="#" data-toggle="modal" data-target="#reply" class="btn badge-primary float-right">Reply</a></p>
+				</div>
+          </div>
+          
+          <div class="card my-3" >
+            <h5 class="card-header">Stephen</h5>
+            <div class="card-body">
+            <p class="card-text">Students solution to the problem... <a href="#" data-toggle="modal" data-target="#reply" class="btn badge-primary float-right">Reply</a>
+				</p></div>
+          </div>
+          
+          <div class="card my-3" >
+            <h5 class="card-header">Leah</h5>
+            <div class="card-body">
+            <p class="card-text">Students solution to the problem... <a href="#" data-toggle="modal" data-target="#reply" class="btn badge-primary float-right">Reply</a>
+				</p></div>
+          </div>
+    </div>
+   
+    <div id="assignment2" class="container tab-pane fade"><br>
+      <div class="row">
+      <div class="col-lg-10">
+      <h3>Another question about running?</h3>
+		<p><i>Select a students solution and press "reply" to leave feedback.</i></p>
+    </div>
+    
+    <div class="col-lg-2">
+      <img src="vendor/images/running.png" style="height: 100px">
+		</div>
+   	
+    	</div>
+     	<div class="card my-3" >
+            <h5 class="card-header">Amy</h5>
+            <div class="card-body">
+            <p class="card-text">Students solution to the problem... <a href="#" data-toggle="modal" data-target="#reply" class="btn badge-primary float-right">Reply</a></p>
+				</div>
+          </div>
+          
+    </div>
+    
+    <div id="assignment3" class="container tab-pane fade"><br>
+      <div class="row">
+      <div class="col-lg-10">
+      <h3>And another question about running...?</h3>
+		<p><i>Select a students solution and press "reply" to leave feedback.</i></p>
+    </div>
+    
+    <div class="col-lg-2">
+      <img src="vendor/images/running.png" style="height: 100px">
+		</div>
+   	
+    	</div>
+     	<div class="card my-3" >
+            <h5 class="card-header">Leah</h5>
+            <div class="card-body">
+            <p class="card-text">Students solution to the problem... <a href="#" data-toggle="modal" data-target="#reply" class="btn badge-primary float-right">Reply</a></p>
+				</div>
+          </div>
+          
+          <div class="card my-3" >
+            <h5 class="card-header">Stephen</h5>
+            <div class="card-body">
+            <p class="card-text">Students solution to the problem... <a href="#" data-toggle="modal" data-target="#reply" class="btn badge-primary float-right">Reply</a>
+				</p></div>
+          </div>
+</div>
+
+<!--modal-->
+<div class="modal" id="reply">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+		
+		<div class="modal-header">
+			<h1 class="modal-title">Running! Why do we do it?</h1>
+			<button type="button" class="close" data-dismiss="modal">x</button>
+			</div>
+			
+		<div class="modal-body">
+			
+			<h6><i>Student's solution to the problem...</i></h6>
+			<h6><i>....................................................................................................................................................</i></h6>
+			<h6><i>....................................................................................................................................................</i></h6><br><br>
+			
+			<h6>David:</h6>
+			<p>Nice!</p><br>
+			
+			<h6>Charles:</h6>
+			<p>Its okay... a lot needs to be worked on</p><br>
+			
+			<h6><i>You:</i></h6>
+			<textarea class="form-control" rows="3" placeholder="Write a comment..."></textarea>
+		
+			<p align="right">
+			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			<button type="submit" class="btn badge-primary">Comment</button>
+			</p>
+		 
+		</div>
+		
+		
+		</div>
+	</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>
