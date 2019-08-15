@@ -7,4 +7,6 @@ Bootstrap and JQuery
 
 *Website context, walkthrough and design decisions in "Design Documentation.pdf"*
 
-Open website with "index.html"
+**Instructions**
+
+- Open website with "index.html"
